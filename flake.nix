@@ -20,7 +20,7 @@
     let
       username = "jeridf";
       useremail = "francojc@wfu.edu";
-      system = "aarch64-linux";
+      system = "x86_64-linux";
       hostname = "nixos";
 
       specialArgs =

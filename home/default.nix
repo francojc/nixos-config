@@ -4,11 +4,13 @@
   home.username = "jeridf";
   home.homeDirectory = "/home/jeridf";
   home.packages = with pkgs; [
+    albert
     eza
     direnv
     fd
     fzf
     gh
+    google-drive-ocamlfuse
     jq
     kitty
     lazydocker
@@ -19,11 +21,13 @@
     nix-direnv
     nix-prefetch-git
     pandoc
+    pianobar
     quarto
     ripgrep
     tldr
     yazi
     yt-dlp
+    zoom-us
   ];
 
 	imports = [
